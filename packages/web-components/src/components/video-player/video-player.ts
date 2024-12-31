@@ -26,7 +26,7 @@ import {
   VIDEO_PLAYER_PLAYING_MODE,
 } from './defs';
 import '../image/image';
-import styles from './video-player.scss';
+import styles from './video-player.scss?lit';
 import StableSelectorMixin from '../../globals/mixins/stable-selector';
 import { carbonElement as customElement } from '@carbon/web-components/es/globals/decorators/carbon-element.js';
 import ifNonEmpty from '@carbon/web-components/es/globals/directives/if-non-empty.js';
